@@ -8,3 +8,20 @@ This is an updated version of [mkyong's excellent Spring 3 MVC Hello World Examp
 - Spring version 4.0.0.BUILD-SNAPSHOT rather than 3.0.5.RELEASE
 - No need to append "welcome" to the URL to see the "hello world" page
 - Project and classpath settings work with Tomcat 7 and Java 1.7
+
+Here are instructions for importing and running the project in Eclipse Juno with Tomcat 7:
+- Open a shell or DOS command window.
+- Change directory to your Eclipse workspace.
+- Clone the Git repo:
+
+    git clone git@github.com:sasaporta/springmvcshell.git
+
+- Open Eclipse.
+- Select *File | Import* from the menu.
+- Expand *General* and select *Existing Projects into Workspace*. Click *Next*.
+- Browse to the *springmvcshell* subfolder of your Eclispe workspace and click *OK*.
+- Click *Finish*.
+- Right-click *springmvcshell* in Eclipse's Project Explorer and select *Run As | Run on Server*.
+- Click *Finish*.
+- Restart the server if prompted to do so.
+- You should see a "hello world" page.
